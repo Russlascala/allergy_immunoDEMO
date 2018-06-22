@@ -1,0 +1,936 @@
+/* Theme Colors two main colors and text colors*/
+/*Fonts for top nav, main content, and taglines*/
+/* navigation */
+.width1200 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topNav {
+  width: 100%;
+  height: 180px;
+  background: #5a5c51;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  border-color: white;
+}
+/* Header above nav */
+#practicelogo {
+  height: 120px;
+}
+#navLogo {
+  float: left;
+  padding: 25px;
+}
+#navLogo .fas {
+  font-size: 100px;
+  color: white;
+  border-color: white;
+}
+#headingTxt {
+  padding: 50px 0 0;
+}
+#practiceTxt {
+  margin: 0;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+/* Slogan section for practice*/
+#sloganTxt {
+  padding-top: 5px;
+  margin: 0;
+  font-size: 16px;
+}
+#phoneNums {
+  padding: 25px;
+}
+#navPhone,
+#navPhone2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: right;
+  padding: 5px;
+}
+.fa,
+.fas {
+  font-size: 125%;
+}
+.navbar {
+  width: 100%;
+  height: 40px;
+  min-height: 40px !important;
+  background-color: #98B0A8;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 100;
+  box-shadow: 0 1px 15px #333;
+}
+.navbar li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  border-color: black;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.navbar li::after {
+  content: "|";
+  font-size: 22px;
+  margin-left: 15px;
+  margin-right: 0;
+  margin-top: -7px;
+  float: left;
+}
+.navbar li:last-child::after {
+  visibility: hidden;
+}
+.dropdown-menu {
+  background-color: #c3d1cd;
+  left: -10px;
+  margin: 0;
+  max-height: 393px;
+  height: auto;
+  overflow-x: hidden;
+}
+nav::-webkit-scrollbar {
+  width: 1em;
+}
+nav::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+nav::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.dropdown-menu > li::after {
+  content: none;
+  text-align: center;
+}
+.navbar .glyphicon {
+  display: none;
+}
+.navmenuTitle {
+  display: none;
+}
+.navbar-nav {
+  margin: 0;
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-inverse {
+  border: 0;
+}
+/*   .navbar-inverse .navbar-nav>li>a {
+    //color:inherit;
+    .colorTransformBW(@bottomNav);
+  } */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border: 0;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: inherit;
+}
+/*
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    //color: inherit;
+  }*/
+.navbar-inverse .navbar-toggle {
+  color: black;
+  border-color: black;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  color: black;
+  background-color: black;
+}
+.navbar-toggle {
+  border: 2px solid transparent;
+}
+.nav > li > a {
+  padding: 0;
+  float: left;
+}
+.stickyDrop {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1000;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1000;
+}
+/*Fixs for dropdown color from the bootstrap less and padding on the li */
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background-color: inherit;
+  color: inherit;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a {
+  color: black;
+  border-color: black;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: inherit;
+  background-color: inherit;
+}
+.dropdown-menu > li > a {
+  padding: 0 20px;
+}
+/* fix for color text of dropdown*/
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #577169;
+}
+/* hero image */
+.heroImg {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.fullwidth {
+  width: 100%;
+}
+#slideshow img {
+  box-shadow: 0 5px 20px #333;
+}
+#imgBackColor {
+  background-color: #c3d1cd;
+  /*#E6E6E6;*/
+}
+/* Tagline section under hero img*/
+#tagline_section {
+  background-color: #5a5c51;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  border-color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 30px grey;
+}
+.tagTxt {
+  margin-left: auto;
+  margin-right: auto;
+}
+.tagTxt p {
+  margin-top: -1%;
+}
+.mainFont {
+  font-family: 'Open Sans', sans-serif;
+}
+.alt-content-a {
+  background-color: #fff;
+}
+.alt-content-b {
+  background-color: #c3d1cd;
+  color: black;
+  border-color: black;
+}
+/*headings for the different sections */
+h2 {
+  margin-bottom: 40px;
+}
+#offpolTxt h4 {
+  margin-top: 30px;
+}
+#offpolTxt {
+  padding-right: 150px;
+}
+/* Same for all show all buttons*/
+.showMorePage {
+  /*font-family:'Open Sans', sans-serif;*/
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  text-align: center;
+  color: #000;
+}
+.showMorePage a {
+  color: #000;
+}
+.showMorePage a:hover {
+  color: #999999;
+}
+/* About section */
+#aboutContent {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+  width: 100%;
+}
+#aboutTxt {
+  padding-right: 150px;
+}
+#about_img {
+  /*width:100%;*/
+  margin-top: 45px;
+}
+/* Insurance accordion list sections */
+#accordIns {
+  text-align: center;
+}
+.accordContent {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+#accordIns h2 {
+  text-align: left;
+}
+#accordIns li {
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1.4em;
+}
+.fullInsurance {
+  /*font-family:'Open Sans', sans-serif;*/
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.xpIns-item {
+  display: none;
+}
+#moreIns-trig {
+  display: block;
+}
+#lessIns-trig {
+  display: none;
+}
+#moreIns-trig:hover,
+#lessIns-trig:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #577169;
+}
+.accordion-list {
+  padding-left: 0;
+  float: left;
+}
+/* office policies section */
+#offPolContent {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+#cards {
+  margin-left: 10px;
+}
+/* office policies buttons */
+#buttons {
+  margin-top: 70px;
+}
+.buttonappt {
+  margin-top: 20px;
+}
+.cardImg {
+  margin-bottom: 12px;
+}
+.btnimg {
+  float: left;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* Patient Edu accordion list section */
+#accordEdu {
+  text-align: center;
+}
+#accordEdu h2 {
+  text-align: left;
+}
+#accordEdu li {
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #445747;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1.4em;
+}
+#accordEdu li a {
+  color: #445747;
+}
+#accordEdu li a:hover {
+  color: #66826a;
+}
+.fullContent {
+  /*font-family:'Open Sans', sans-serif;*/
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.xpContent-item {
+  display: none;
+}
+#moreContent-trig {
+  display: block;
+}
+#lessContent-trig {
+  display: none;
+}
+#moreContent-trig:hover,
+#lessContent-trig:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #577169;
+}
+/* -------------- location section -------------- */
+#locationContent {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+#locationContent p {
+  margin: 0;
+}
+#locationInfo_addr {
+  font-size: 15px;
+}
+#locationInfo_hrs {
+  font-size: 15px;
+}
+#locationInfo_map {
+  width: 90%;
+  margin-top: 30px;
+}
+#locationInfo_addr td {
+  padding-left: 10px;
+}
+#locationInfo_hrs th {
+  text-align: right;
+}
+#locationInfo_hrs td {
+  padding-left: 15px;
+}
+/* -------------- contact section -------------- */
+#simpleContact {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+  /*background-color: lighten(@bottomNav,20%); 
+  .colorTransformBW(@bottomNav);*/
+}
+#phiContainer {
+  background-color: #fff;
+  /* Lighter Theme Color 01 */
+  padding-top: 5px;
+  border-radius: 5px;
+  text-align: left;
+  border: solid 2px #b3b3b3;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+#phiWidth {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chbxPHI p {
+  font-size: 15px;
+}
+.redaster {
+  color: #ff0000;
+}
+#chbxPHI td {
+  padding-left: 10px;
+}
+#sendMsg {
+  background-color: #5a5c51;
+  color: white;
+  border-color: white;
+  /*.colorTransformBW(lighten(@mainNavFooter,30%));*/
+  margin: 5px auto 0px;
+  display: block;
+}
+#sendMsg:hover {
+  cursor: pointer;
+  background-color: #8e9182;
+  color: black;
+  border-color: black;
+  /*border-color: @mainNavFooterTxt;
+  .colorTransformBW(@mainNavFooterTxt);*/
+}
+/* === Footer Menu=== */
+footer {
+  width: 100%;
+  background-color: #5a5c51;
+  font-family: #fff;
+  font-size: 14px;
+  padding: 40px 0 30px;
+  float: left;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+}
+footer a {
+  color: white;
+  border-color: white;
+}
+footer a:hover {
+  color: #bfc1b8;
+}
+.footnote {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-top: 30px;
+  color: white;
+  border-color: white;
+}
+.noPadding {
+  padding: 0 !important;
+}
+.noMargin {
+  margin: 0 !important;
+}
+/* === Footer Menu | Social === */
+.footmenuSocial {
+  display: block;
+  width: 280px;
+  margin: 30px auto;
+}
+.footmenuSocial .iconSocial {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  float: left;
+  margin: 0 5px;
+}
+/* media query for desktop viewport targets screen size with a minimum width of 1200px */
+/*_______________________--------------------------------__________________________*/
+@media (min-width: 1200px) {
+  .navbar-inverse .navbar-nav > li > a {
+    color: black;
+    border-color: black;
+  }
+  .navbar {
+    padding-top: 10px;
+  }
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .sub-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sub-menu li a:hover {
+    text-decoration: underline;
+    color: #577169;
+  }
+  /* Hover for dropdowns on desktop screens */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  /* Navigation to the page for the dropdown, not needed on desktop 
+bc hover drops down and the click brings you to the page */
+  .dropdownAllForTouchScreen {
+    display: none;
+  }
+  /* main content after nav for desktop screens*/
+  .mainContent {
+    margin-top: 0px;
+  }
+  #buttons {
+    margin-top: 40px;
+  }
+  /* Contact section desktop*/
+  #simpleContact {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #phiWidth {
+    width: 75%;
+  }
+  .footerContent {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Landscape Tablet */
+/*_______________________--------------------------------__________________________*/
+@media (max-width: 1199px) {
+  .navbar-inverse .navbar-nav > li > a {
+    color: black;
+    border-color: black;
+  }
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    right: 15px;
+    margin-right: 0;
+    color: #364641;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .navbar li {
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    float: left;
+    text-align: center;
+  }
+  .navbar li:hover {
+    background-color: #98B0A8;
+    /* MAIN Theme Color */
+  }
+  .navbar li::after {
+    content: none;
+    float: none;
+  }
+  /* Mobile Nav Icons & Elements */
+  .navbar .glyphicon {
+    display: block;
+    z-index: 100;
+    color: black;
+    border-color: black;
+  }
+  .navbar .glyphicon:hover {
+    color: #577169;
+  }
+  .btnHome {
+    width: 40px;
+    font-size: 26px;
+    padding: 4px;
+    margin-top: 7px;
+    position: absolute;
+    left: 10px;
+  }
+  .btnPhone {
+    width: 40px;
+    font-size: 26px;
+    padding: 4px;
+    margin-top: 7px;
+    position: absolute;
+    left: 60px;
+  }
+  .btnAppt {
+    width: 40px;
+    font-size: 26px;
+    padding: 4px;
+    margin-top: 7px;
+    position: absolute;
+    left: 110px;
+  }
+  .btnPort {
+    width: 40px;
+    font-size: 26px;
+    padding: 4px;
+    margin-top: 7px;
+    position: absolute;
+    left: 160px;
+  }
+  .btnDolo {
+    width: 40px;
+    font-size: 26px;
+    padding: 4px;
+    margin-top: 7px;
+    position: absolute;
+    left: 210px;
+  }
+  .navmenuTitle {
+    display: block;
+    position: absolute;
+    right: 68px;
+    color: black;
+    border-color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 10px;
+    z-index: 100;
+  }
+  .navmenuTitle:hover {
+    color: #577169;
+  }
+  .navbar-inverse .navbar-toggle:focus,
+  .navbar-inverse .navbar-toggle:hover {
+    color: #a6bbb4;
+    background-color: #a6bbb4;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    color: #7b9a90;
+    background-color: #7b9a90;
+    margin-top: 50px;
+  }
+  .navbar-nav {
+    float: none;
+  }
+  .nav > li > a {
+    text-align: center;
+    float: none;
+  }
+  /* Office policies mobile*/
+  #offPolContent {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+/*_______________________--------------------------------__________________________*/
+@media (max-width: 991px) {
+  #tagline_section p {
+    font-size: 18px;
+  }
+  #buttons {
+    margin-top: 35px;
+  }
+  #practiceTxt {
+    font-size: 26px;
+  }
+  #navPhone {
+    font-size: 16px;
+  }
+  #navPhone2 {
+    font-size: 16px;
+  }
+  #sloganTxt {
+    font-size: 14px;
+  }
+}
+@media (max-width: 770px) {
+  #phoneNums {
+    text-align: right;
+    padding: 15px;
+  }
+  #navPhone {
+    font-size: 16px;
+    display: inline-block;
+  }
+  #navPhone2 {
+    font-size: 16px;
+    display: inline-block;
+  }
+}
+/* Landscape Mobile */
+/*_______________________--------------------------------__________________________*/
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu .dropdown-header,
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding: 0px 10px 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #practiceTxt {
+    font-size: 25px;
+    padding-top: -30px;
+  }
+  #sloganTxt {
+    font-size: 14px;
+  }
+  #phoneNums {
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+  /* === Navigation === */
+  .navmenuTitle {
+    display: none;
+  }
+  #tagline_section p {
+    font-size: 16px;
+  }
+  #aboutTxt {
+    padding-right: 0px;
+  }
+  #offpolTxt {
+    padding-right: 0px;
+  }
+  footer img {
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+}
+/*_______________________--------------------------------__________________________*/
+/* Midsize Responsive Troubleshooting */
+@media (max-width: 639px) {
+  .dropdown-menu {
+    max-height: 250px;
+  }
+  #practicelogo {
+    height: 90px;
+  }
+  #phoneNums {
+    margin-top: 10px;
+  }
+  #navLogo {
+    padding: 25px 0 0;
+    margin-right: 10px;
+  }
+  #headingTxt {
+    padding: 35px 0 0;
+  }
+  #practiceTxt {
+    font-size: 24px;
+  }
+  #sloganTxt {
+    font-size: 14px;
+  }
+  footer ul {
+    padding: 0;
+    line-height: 30px;
+  }
+}
+/* media query for mobile viewport targets screen size with a minimum width of 480 */
+/*_______________________--------------------------------__________________________*/
+@media (max-width: 480px) {
+  #practicelogo {
+    height: 80px;
+  }
+  #phoneNums {
+    margin-top: 10px;
+  }
+  #navPhone {
+    font-size: 14px;
+  }
+  #navPhone2 {
+    font-size: 14px;
+  }
+  #navLogo {
+    padding: 25px 0 0;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+  #headingTxt {
+    padding: 35px 0 0;
+  }
+  #practiceTxt {
+    font-size: 20px;
+  }
+  #sloganTxt {
+    font-size: 14px;
+  }
+  /* About section mobile*/
+  #aboutContent {
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #aboutTxt {
+    padding-right: 10px;
+  }
+  /*  insurance accord section mobile */
+  .accordContent {
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #accordContent h2 {
+    text-align: left;
+  }
+  /* Office policies mobile*/
+  #offPolContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #buttons {
+    margin-top: 20px;
+  }
+  .btnimg {
+    float: none;
+  }
+  #offhrs {
+    margin-top: 30px;
+  }
+  /*  location section mobile*/
+  #locationContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /*  contact section mobile */
+  #simpleContact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #chbxPHI p {
+    font-size: 13px;
+  }
+  #phiWidth {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  #navLogo {
+    margin-bottom: 0;
+  }
+}
+/*_______________________--------------------------------__________________________*/
+@media (max-width: 320px) {
+  #practiceTxt {
+    font-size: 16px;
+  }
+  #phoneNums {
+    margin-top: 25px;
+  }
+  #navPhone {
+    font-size: 13px;
+  }
+  #navPhone2 {
+    font-size: 13px;
+  }
+  #sloganTxt {
+    font-size: 12px;
+  }
+}
